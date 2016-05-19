@@ -1,6 +1,6 @@
 /*=========== PAGE STYLING ================*/
 
-#container {
+.container {
   width: 85%;
   margin: 0 auto;
 }
@@ -50,7 +50,7 @@ nav li:active {
 }
 
 
-/*=========== CONTENT ================*/
+/*=========== CONTENT HOME ================*/
 #employees img {
   height: 100px;
   width: 15%;
@@ -58,6 +58,30 @@ nav li:active {
 
 #employees p {
   width: 80%;
+  display: inline-block;
+}
+
+
+/*=========== CONTENT PRODUCTS ================*/
+
+.products aside {
+  width: 17%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.products aside img {
+  width: 100%;
+}
+
+.products section {
+  width: 79%;
+  display: inline-block;
+  border: 1px solid black;
+  float: right;
+}
+
+.products section p {
   display: inline-block;
 }
 
