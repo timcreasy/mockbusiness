@@ -1,0 +1,68 @@
+/*=========== PAGE STYLING ================*/
+
+#container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+/*=========== NAVIGATION ================*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background: grey;
+}
+
+nav ul {
+  padding: 20px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  width: 8%;
+  background: white;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #FDFD90;
+  color: #475156;
+}
+
+nav li:active {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.selected {
+  background: orange;
+}
+
+
+/*=========== CONTENT ================*/
+#employees img {
+  height: 100px;
+  width: 15%;
+}
+
+#employees p {
+  width: 80%;
+  display: inline-block;
+}
+
+/*=========== FOOTER ================*/
+
+footer {
+  text-align: center;
+}
